@@ -1,0 +1,14 @@
+.container{
+    display: flex;
+}
+
+
+.activities{
+    display: flex;
+    flex-wrap: wrap; 
+}
+.activities div{
+    flex-basis: 33.33%;
+    margin-bottom: 0.5rem;
+    
+}

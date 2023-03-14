@@ -1,0 +1,28 @@
+.products {
+    display: flex;
+    margin-top: 2rem;
+    justify-content: center;
+    gap:1rem
+}
+.products a:first-child{
+    height: 60vh;
+    width: 50%;
+    background: red;
+    text-decoration: none;
+    font-size:xx-large;
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.products a:last-child{
+    height: 60vh;
+    width: 50%;
+    background: blue;
+    text-decoration: none;
+    font-size:xx-large;
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

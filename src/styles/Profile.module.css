@@ -1,0 +1,25 @@
+.profile{
+    display: flex;
+    flex-direction: column;
+    background-color:hsl(235, 46%, 20%);
+    border-radius: 1rem;
+    margin-right: 1rem;
+    color: white;
+}
+.profile div{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 10rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    gap:0.5rem
+}
+.profile div:first-child{
+    background-color: hsl(246, 80%, 60%);
+}
+.profile button{
+    background: transparent;
+    color: white;
+    cursor: pointer;
+}

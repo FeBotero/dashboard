@@ -4,10 +4,9 @@ import Profile from "@/components/Profile";
 
 export default function About() {
   return (
-    <>
-      <h1>Pagina de About</h1>
-      <div className={styles.container}>
-        <div>
+    <div className={styles.container}>
+      <div className={styles.containerDiv}>
+        <div className={styles.content}>
           <Profile />
         </div>
         <div className={styles.activities}>
@@ -19,6 +18,6 @@ export default function About() {
           <Card />
         </div>
       </div>
-    </>
+    </div>
   );
 }

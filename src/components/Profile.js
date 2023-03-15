@@ -5,7 +5,7 @@ export default function Profile() {
   return (
     <div className={styles.profile}>
       <div>
-        <Image src={user} width={50} height={50} />
+        <Image className={styles.img} src={user} width={50} height={50} />
         <span>Report for</span>
         <h3>Jeremy Robson</h3>
       </div>

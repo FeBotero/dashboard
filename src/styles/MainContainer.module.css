@@ -1,5 +1,5 @@
 .container{
     min-height: 75vh;
-    padding: 20px;
-    text-align: center;
+    background-color: hsl(226, 43%, 10%);
+
 }

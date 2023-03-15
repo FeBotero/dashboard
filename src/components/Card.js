@@ -9,19 +9,19 @@ export default function Card() {
         <Image
           className={styles.image}
           src={work}
-          width="20"
-          height="20"
+          width="35"
+          height="35"
           alt="Work"
         />
       </div>
 
       <div className={styles.content}>
         <div>
-          <div>Work</div>
+          <p>Work</p>
           <p>...</p>
         </div>
-        <div>32hrs</div>
-        <div> Last Week - 36hrs</div>
+        <p>32hrs</p>
+        <p> Last Week - 36hrs</p>
       </div>
     </div>
   );

@@ -11,7 +11,7 @@ export default function Card() {
           src={work}
           width="35"
           height="35"
-          alt="Work"
+          alt="activity"
         />
       </div>
 

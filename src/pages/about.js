@@ -1,6 +1,7 @@
 import Card from "@/components/Card";
 import styles from "../styles/About.module.css";
 import Profile from "@/components/Profile";
+import Projects from "@/components/Projects";
 
 export default function About() {
   return (
@@ -9,14 +10,7 @@ export default function About() {
         <div className={styles.content}>
           <Profile />
         </div>
-        <div className={styles.activities}>
-          <Card />
-          <Card />
-          <Card />
-          <Card />
-          <Card />
-          <Card />
-        </div>
+        <Projects />
       </div>
     </div>
   );
